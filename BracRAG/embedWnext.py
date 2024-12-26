@@ -1,16 +1,18 @@
 from weaviate import Client
 import json
 import numpy as np
+from sentence_transformers import SentenceTransformer
 
 # 创建 Weaviate 客户端
-client = Client("http://localhost:6000")  # 使用您设置的端口
+client = Client("http://localhost:6000")
+
+# 加载与embed.py相同的模型
+model = SentenceTransformer('all-MiniLM-L6-v2')
 
 def semantic_search(query, limit=5):
     try:
-        # 这里我们需要将查询转换为向量
-        # 由于我们没有直接访问原始模型，我们将使用一个随机向量作为示例
-        # 在实际应用中，您应该使用与原始嵌入相同的模型来生成查询向量
-        query_vector = np.random.rand(384).tolist()  # 假设原始向量维度为 384
+        # 使用模型将查询文本转换为向量
+        query_vector = model.encode(query).tolist()
 
         result = (
             client.query
@@ -36,7 +38,7 @@ def semantic_search(query, limit=5):
         return None
 
 # 测试检索
-query = "cardinal process"
+query = "cardinal process"  # 您可以修改这个查询文本
 results = semantic_search(query)
 
 if results is not None:
@@ -52,9 +54,25 @@ if results is not None:
 else:
     print("No results returned.")
 
-# 检查是否有数据在 Weaviate 中
+# 检查数据库中的对象数量
 try:
     objects = client.data_object.get()
     print(f"\nNumber of objects in Weaviate: {len(objects['objects'])}")
 except Exception as e:
     print(f"Error fetching objects: {str(e)}")
+
+# 展示一些样本数据
+def show_sample_data(limit=3):
+    try:
+        print("\nShowing sample data from database:")
+        result = (
+            client.query
+            .get("TextChunk", ["content", "chunk_id"])
+            .with_limit(limit)
+            .do()
+        )
+        print(json.dumps(result, indent=2))
+    except Exception as e:
+        print(f"Error fetching sample data: {str(e)}")
+
+show_sample_data()
