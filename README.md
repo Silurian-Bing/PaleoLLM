@@ -1,6 +1,8 @@
 # PaleoLLM: Exploring Large Language Models in Paleontology
 
-This project aims to investigate and develop applications of large language models (LLMs) in the field of paleontology. Our initial focus is on creating an expert system for various fossil taxa, with plans to expand into other innovative applications as the project evolves.
+This project aims to investigate and develop applications of large language models (LLMs) in the field of paleontology. While initiated as a personal vision by a paleontologist, this ambitious project seeks collaboration from enthusiasts and experts across different domains.
+
+The project envisions seven main directions for development:
 
 ## Key Features and Goals
 
@@ -10,24 +12,34 @@ Develop a comprehensive knowledge base and query system for different fossil gro
 ### 2. Stratigraphic Analysis
 Implement natural language processing capabilities to assist in interpreting and correlating stratigraphic data from various sources, enhancing our understanding of geological time scales and fossil distributions.
 
-### 3. Phylogenetic Inference
-Explore the potential of LLMs in generating and refining phylogenetic hypotheses based on morphological and molecular data of extinct and extant organisms.
+### 3. Morphometric and Geometric Analysis
+Explore the potential of LLMs and machine learning in analyzing morphological data, geometric morphometrics, and morphospace patterns of extinct organisms, aiding in taxonomic and evolutionary studies.
 
 ### 4. Paleoenvironment Reconstruction
-Utilize the power of language models to synthesize multidisciplinary data and help reconstruct ancient environments and ecosystems.
+Utilize the power of language models to synthesize multidisciplinary data and help reconstruct ancient environments and ecosystems, incorporating sedimentological, geochemical, and paleontological evidence.
 
-### 5. Literature Mining
-Develop tools to efficiently extract and summarize relevant information from the vast paleontological literature, aiding researchers in staying up-to-date with the latest findings and theories.
+### 5. Fossil Identification Assistant
+Create an interactive system that can guide users through the process of identifying fossils based on visual characteristics, contextual information, and comparative analysis with known specimens.
 
-### 6. Fossil Identification Assistant
-Create an interactive system that can guide users through the process of identifying fossils based on visual characteristics and contextual information.
-
-### 7. Paleoart Generation
-Investigate the application of text-to-image models in creating scientifically accurate representations of extinct organisms and their habitats.
+### 6. Paleoart and Visualization
+Investigate the application of AI models in creating scientifically accurate representations of extinct organisms and their habitats, while developing tools for visualizing morphological and environmental data.
 
 
-## Future Directions
+As a paleontologist with limited programming expertise, I can provide domain knowledge and requirements analysis from an industry perspective. However, the successful implementation of these ideas requires a collaborative effort. We welcome contributions from individuals with expertise in:
 
-Future directions may include integration with other emerging technologies such as computer vision for fossil analysis, virtual and augmented reality for educational purposes, and machine learning techniques for predicting undiscovered fossil locations.
+### Machine Learning and LLM Development
+### Natural Language Processing
+### Computer Vision and Image Processing
+### Data Science and Statistical Analysis
+### Database Design and Management
+### Scientific Programming and Visualization
+### Paleontology and Related Earth Sciences
+### Technical Documentation and Scientific Writing
 
-We welcome contributions from paleontologists, computer scientists, and enthusiasts alike to help push the boundaries of how artificial intelligence can enhance our understanding of Earth's prehistoric past.
+This is an open initiative where we can learn from each other and push the boundaries of paleontological research through modern AI applications. Whether you're an AI researcher, a software developer, a data scientist, or a fellow paleontologist, your expertise could be valuable in bringing these ideas to life.
+
+Together, we can enhance our understanding of Earth's prehistoric past by bridging the gap between traditional paleontology and cutting-edge technology. Our goal is to create practical tools that can benefit both professional researchers and enthusiasts in the field of paleontology.
+
+If you're interested in contributing to any aspect of this project or have innovative ideas to share, please feel free to reach out to me.
+
+Let's work together to revolutionize paleontological research through the power of artificial intelligence.
