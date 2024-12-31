@@ -27,7 +27,7 @@ Investigate the application of AI models in creating scientifically accurate rep
 
 As a paleontologist with limited programming expertise, I can provide domain knowledge and requirements analysis from an industry perspective. However, the successful implementation of these ideas requires a collaborative effort. We welcome contributions from individuals with expertise in:
 
-Machine Learning and LLM Development
+###### Machine Learning and LLM Development
 Natural Language Processing
 Computer Vision and Image Processing
 Data Science and Statistical Analysis
