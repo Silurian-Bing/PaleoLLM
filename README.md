@@ -27,14 +27,14 @@ Investigate the application of AI models in creating scientifically accurate rep
 
 As a paleontologist with limited programming expertise, I can provide domain knowledge and requirements analysis from an industry perspective. However, the successful implementation of these ideas requires a collaborative effort. We welcome contributions from individuals with expertise in:
 
-### Machine Learning and LLM Development
-### Natural Language Processing
-### Computer Vision and Image Processing
-### Data Science and Statistical Analysis
-### Database Design and Management
-### Scientific Programming and Visualization
-### Paleontology and Related Earth Sciences
-### Technical Documentation and Scientific Writing
+Machine Learning and LLM Development
+Natural Language Processing
+Computer Vision and Image Processing
+Data Science and Statistical Analysis
+Database Design and Management
+Scientific Programming and Visualization
+Paleontology and Related Earth Sciences
+Technical Documentation and Scientific Writing
 
 This is an open initiative where we can learn from each other and push the boundaries of paleontological research through modern AI applications. Whether you're an AI researcher, a software developer, a data scientist, or a fellow paleontologist, your expertise could be valuable in bringing these ideas to life.
 
