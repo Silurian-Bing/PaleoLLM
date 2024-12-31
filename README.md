@@ -2,8 +2,6 @@
 
 This project aims to investigate and develop applications of large language models (LLMs) in the field of paleontology. While initiated as a personal vision by a paleontologist, this ambitious project seeks collaboration from enthusiasts and experts across different domains.
 
-The project envisions seven main directions for development:
-
 ## Key Features and Goals
 
 ### 1. Fossil Taxa Expert System
